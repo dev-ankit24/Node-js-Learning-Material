@@ -34,4 +34,7 @@
 
 
 // ******************************** CORE (BUILTIN ) MODULES ****************************************
-require("./BuiltinModules/fsModuleAsync")
+// require("./BuiltinModules/fsModuleSync")
+// require("./BuiltinModules/fsModuleAsync ")
+// require("./BuiltinModules/osModule");
+require("./BuiltinModules/pathModule");

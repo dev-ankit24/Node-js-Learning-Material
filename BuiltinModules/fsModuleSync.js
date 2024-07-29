@@ -38,16 +38,16 @@ const { log } = require('util')
         // }
 
         // writeFileSync() : used to create  a new file if file doen't exist, file  already exist it delete all content of file and re-write data into it .
-         try {
-        fs.writeFileSync("test/sample.txt","hello world 1")
-        fs.writeFileSync("test/sample.txt","hello world 2")
-        fs.writeFileSync("test/sample.txt","hello world 3")
-        fs.writeFileSync("test/sample.txt","hello world 4")
-        fs.writeFileSync("test/sample.txt","hello world 5")
-        console.log("Done");
-         } catch (error) {
-            console.log("Path InVailid")
-         }
+        //  try {
+        // fs.writeFileSync("test/sample.txt","hello world 1")
+        // fs.writeFileSync("test/sample.txt","hello world 2")
+        // fs.writeFileSync("test/sample.txt","hello world 3")
+        // fs.writeFileSync("test/sample.txt","hello world 4")
+        // fs.writeFileSync("test/sample.txt","hello world 5")
+        // console.log("Done");
+        //  } catch (error) {
+        //     console.log("Path InVailid")
+        //  }
 
         // fs.appendFileSync() : used to create  a new file if file doen't exist, file  already exist it write data after old data.
         // try {
