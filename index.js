@@ -24,10 +24,14 @@
 //  import name from "./userdefineModules/test2.mjs"
 //  console.log(name);
 
-import Example ,{name,arr,emp ,fun} from "./userdefineModules/test2.mjs";
-let obj= new Example()
-obj.show()
-console.log( name);
-console.log( arr);
-console.log( emp);
-fun()
+// import Example ,{name,arr,emp ,fun} from "./userdefineModules/test2.mjs";
+// let obj= new Example()
+// obj.show()
+// console.log( name);
+// console.log( arr);
+// console.log( emp);
+// fun()
+
+
+// ******************************** CORE (BUILTIN ) MODULES ****************************************
+require("./BuiltinModules/fsModuleAsync")
