@@ -138,7 +138,10 @@
 
 
 // Using  Events Module
-require("./BuiltinModules/eventsEmitterExample")
+// require("./BuiltinModules/eventsEmitterExample")
+
+// Using  Stream example 
+ require("./streamExample") 
 
 
 
