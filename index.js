@@ -117,22 +117,28 @@
 
 
 // serving JSON file data from server
-const http= require ("http")
-const fs= require ("fs")
+// const http= require ("http")
+// const fs= require ("fs")
 
-const server = http.createServer((req,res)=>{
-    if(req.url=="/")
-        res.end("<h4>Home Page</h4>")
-    else if(req.url=="/data"){
-        let data=fs.readFileSync("data.json", "utf-8")
-        res.end(data)
-    }
-    else{
-        res.writeHead(404)
-        res.end("<h4>404 Not Page found</h4>")
-    }
-})
-server.listen(8000, console.log("server is Running http://localhost:8000"))
+// const server = http.createServer((req,res)=>{
+//     if(req.url=="/")
+//         res.end("<h4>Home Page</h4>")
+//     else if(req.url=="/data"){
+//         let data=fs.readFileSync("data.json", "utf-8")
+//         res.end(data)
+//     }
+//     else{
+//         res.writeHead(404)
+//         res.end("<h4>404 Not Page found</h4>")
+//     }
+// })
+// server.listen(8000, console.log("server is Running http://localhost:8000"))
+
+
+
+
+// Using  Events Module
+require("./BuiltinModules/eventsEmitterExample")
 
 
 
