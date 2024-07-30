@@ -32,7 +32,7 @@
 //  PIPE Line Streams (same as Readable Strems )
 const http= require("http")
 const fs= require("fs")
-const { log } = require("console")
+
 
 let server = http.createServer((req,res)=>{
     if(req.url=="/")
